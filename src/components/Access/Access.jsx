@@ -7,7 +7,7 @@ const Access = () => {
             <div className=' flex-1 flex items-center justify-center'>
                 <div className=' bg-gradient-to-r from-pink-500 via-violet-500 to-blue-500 p-[2px] rounded-xl w-[90%] md:w-[350px]'>
                     <div className='flex h-full w-full items-center justify-center bg-black back rounded-xl'>
-                        <div className=' w-[350px] h-fit py-10 bg-slate-900 rounded-xl flex flex-col justify-center gap-10 items-center px-5'>
+                        <div className=' w-[350px] h-fit py-10 bg-transparent rounded-xl flex flex-col justify-center gap-10 items-center px-5'>
                             <span className='bg-gradient-to-r from-pink-500 via-violet-500 to-blue-500 px-2 py-[2px] rounded-lg font-bold'>Lifetime Access</span>
                             <h1 className=' text-5xl font-bold'>$69</h1>
                             <p className=' text-center'>One-time payment, access forever! <br /><span className=' text-sky-300'>Discounted price. Increases to $420 soon.</span></p>

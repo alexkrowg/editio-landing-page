@@ -25,7 +25,7 @@ const Footer = () => {
                 <div className=' flex flex-col gap-5'>
                     <h2 className=' text-lg text-slate-400'>About</h2>
                     <ul className=''>
-                        <li>Made by Alex</li>
+                        <li>Made by Alex </li>
                     </ul>
                 </div>
             </div>
