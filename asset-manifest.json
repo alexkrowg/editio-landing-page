@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/editio-landing-page/static/css/main.88f3a9b2.css",
-    "main.js": "/editio-landing-page/static/js/main.54ccdea4.js",
+    "main.js": "/editio-landing-page/static/js/main.3619303b.js",
     "static/js/787.283bf475.chunk.js": "/editio-landing-page/static/js/787.283bf475.chunk.js",
     "index.html": "/editio-landing-page/index.html",
     "main.88f3a9b2.css.map": "/editio-landing-page/static/css/main.88f3a9b2.css.map",
-    "main.54ccdea4.js.map": "/editio-landing-page/static/js/main.54ccdea4.js.map",
+    "main.3619303b.js.map": "/editio-landing-page/static/js/main.3619303b.js.map",
     "787.283bf475.chunk.js.map": "/editio-landing-page/static/js/787.283bf475.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.88f3a9b2.css",
-    "static/js/main.54ccdea4.js"
+    "static/js/main.3619303b.js"
   ]
 }
