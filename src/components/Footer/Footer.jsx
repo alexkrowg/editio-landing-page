@@ -2,8 +2,8 @@ import React from 'react'
 
 const Footer = () => {
     return (
-        <div className=' flex justify-center gap-20 items-center h-[100px] md:h-[300px] max-md:flex-col max-md:mt-20'>
-            <img className=' w-48 ' src="assets/images/logo.svg" alt="" />
+        <div className=' flex justify-center gap-20 items-center h-[100px] md:h-[300px] max-md:flex-col max-md:mt-60'>
+            <img className=' w-48 ' src="assets/images/new-logo.svg" alt="" />
 
             <div className=' flex gap-10 flex-wrap'>
                 <div className=' flex flex-col gap-5'>

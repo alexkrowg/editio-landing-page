@@ -38,7 +38,7 @@ const Features = () => {
 
                     <img src="assets/images/arrow.svg" alt="" className=' md:absolute left-[40%] top-[50%] max-md:rotate-90 max-md:w-32 max-md:self-center max-md:mt-14' />
 
-                    <div className=' md:flex-1 flex items-center justify-center max-md:mt-80 relative' data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                    <div className=' md:flex-1 flex items-center justify-center max-md:mt-80 relative' data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out">
                         <div className=' w-64 md:w-[600px] h-44 md:h-[400px] bg-violet-600 absolute left-[20px] bottom-16 rounded-3xl'></div>
                         <div className=' w-64 md:w-[600px] h-44 md:h-[400px] bg-cyan-600 absolute left-[30px] bottom-20 rounded-3xl'></div>
                         <div className=' w-64 md:w-[600px] h-44 md:h-[400px] bg-gradient-to-tr from-pink-500 via-violet-500 to-blue-500 absolute left-[40px] bottom-24 rounded-3xl overflow-hidden'>
