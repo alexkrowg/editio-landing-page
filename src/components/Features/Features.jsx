@@ -1,9 +1,11 @@
 import React from 'react'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Features = () => {
     return (
-        <div className=' flex flex-col'>
-            <div className=' flex flex-col'>
+        <div className=' flex flex-col' id="features">
+            <div className=' flex flex-col' data-aos="fade-down" data-aos-duration="1000" data-aos-delay="100" data-aos-easing="ease-in-out">
                 <div className=' flex flex-col justify-center items-center w-fit self-center gap-5 max-md:mb-10'>
                     <h1 className=' font-bold text-4xl md:text-5lx text-center'>Editing photos is <span className=' text-transparent bg-clip-text bg-gradient-to-br from-pink-500 via-violet-500 to-blue-500'>hard.</span><br />Stop wasting your time.</h1>
                     <p className=' md:w-[580px] text-gray-400 text-center max-md:text-sm'>Don't get lost in the editing labyrinth - let our AI-powered service be your guiding light to effortless perfection!</p>
@@ -36,32 +38,32 @@ const Features = () => {
 
                     <img src="assets/images/arrow.svg" alt="" className=' md:absolute left-[40%] top-[50%] max-md:rotate-90 max-md:w-32 max-md:self-center max-md:mt-14' />
 
-                    <div className=' md:flex-1 flex items-center justify-center max-md:mt-80 relative'>
+                    <div className=' md:flex-1 flex items-center justify-center max-md:mt-80 relative' data-aos="fade-left" data-aos-delay="100" data-aos-duration="1000" data-aos-easing="ease-in-out">
                         <div className=' w-64 md:w-[600px] h-44 md:h-[400px] bg-violet-600 absolute left-[20px] bottom-16 rounded-3xl'></div>
                         <div className=' w-64 md:w-[600px] h-44 md:h-[400px] bg-cyan-600 absolute left-[30px] bottom-20 rounded-3xl'></div>
                         <div className=' w-64 md:w-[600px] h-44 md:h-[400px] bg-gradient-to-tr from-pink-500 via-violet-500 to-blue-500 absolute left-[40px] bottom-24 rounded-3xl overflow-hidden'>
-                            <img src="assets/images/sd7.jpeg" alt="" className=' ml-10 mt-10 w-64 md:w-[600px] h-44 md:h-[400px] rounded-3xl transition-all duration-700 hover:-translate-y-5 hover:-translate-x-5' />
+                            <img src="https://i.ibb.co/FBscdCC/sd7.jpg" alt="" className=' ml-10 mt-10 w-64 md:w-[600px] h-44 md:h-[400px] rounded-3xl transition-all duration-700 hover:-translate-y-5 hover:-translate-x-5' />
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div className=' flex flex-col my-20'>
+            <div className=' flex flex-col my-20' data-aos="fade-down" data-aos-duration="1000" data-aos-delay="100" data-aos-easing="ease-in-out">
                 <div className=' flex flex-col justify-center items-center w-fit self-center gap-5'>
                     <h1 className=' text-3xl font-bold md:text-5xl text-center md:w-[60%]'>Editio AI takes customization to new heights with its vast selection of <span className=' text-transparent bg-clip-text bg-gradient-to-br from-pink-500 via-violet-500 to-blue-500'>artistic</span> styles.</h1>
                     <p className=' text-sm md:text-base md:w-[580px] text-gray-400 text-center'>Explore an extensive library of visually stunning filters, seamlessly blending your unique vision with the power of AI. With just a few clicks, you can achieve the perfect aesthetic that aligns with your brand, personal taste, or creative vision.</p>
                 </div>
 
-                <img src="assets/images/stable-diffusion-xl-4.jpeg" alt="" className=' md:w-[40%] self-center my-10 rounded-3xl' />
+                <img src="https://i.ibb.co/cy8V2yX/stable-diffusion-xl-4.jpg" alt="" className=' md:w-[40%] self-center my-10 rounded-3xl' data-aos="zoom-in" data-aos-duration="700" data-aos-delay="100" data-aos-easing="ease-in-out"/>
             </div>
 
             <div className=' flex flex-col my-20'>
-                <div className=' flex flex-col justify-center items-center w-fit self-center gap-5'>
+                <div className=' flex flex-col justify-center items-center w-fit self-center gap-5' data-aos="fade-down" data-aos-duration="1000" data-aos-delay="100" data-aos-easing="ease-in-out">
                     <h1 className=' font-bold text-3xl md:text-5xl text-center md:w-[60%]'>Precision of AI algorithms with the artistry of <span className=' text-transparent bg-clip-text bg-gradient-to-br from-pink-500 via-violet-500 to-blue-500'>professional</span> photographers.</h1>
                     <p className=' text-sm md:text-base md:w-[580px] text-gray-400 text-center'>This powerful collaboration between technology and human vision results in a harmonious blend of technical excellence and artistic finesse, elevating the quality and impact of the edited photographs to new heights.</p>
                 </div>
 
-                <div className=' flex max-md:flex-col justify-center items-center my-20 gap-10  md:px-[10%] px-10 max-md:text-center'>
+                <div className=' flex max-md:flex-col justify-center items-center my-20 gap-10  md:px-[10%] px-10 max-md:text-center' data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="250" data-aos-easing="ease-in-out">
                     <div className=' flex-1 flex flex-col justify-center items-center gap-3 '>
                         <h1 className=' text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-500  to-green-500'>70%</h1>
                         <span className=' font-bold'>Faster Editing Time </span>

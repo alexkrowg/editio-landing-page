@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <div className=' text-white flex max-md:flex-col-reverse justify-center md:px-20 py-12 md:py-24 gap-20 overflow-hidden relative mb-10'>
       <div className=' flex flex-col gap-5 flex-1'>
-        <div className=' rounded-md flex items-center justify-around gap-5 px-3 py-2 bg-stone-800 w-fit text-xs'>
+        {/* <div className=' rounded-md flex items-center justify-around gap-5 px-3 py-2 bg-stone-800 w-fit text-xs'>
           <div className=' text-2xl'>
             <i className="fa-solid fa-award"></i>
           </div>
@@ -16,8 +16,7 @@ const Hero = () => {
               #1 Product of the Year
             </div>
           </div>
-
-        </div>
+        </div> */}
 
         <h1 className=' text-4xl md:text-6xl leading-none font-bold'>Flawless edits using powerful <br className='md:hidden'/> <span className='text-transparent bg-clip-text bg-gradient-to-br from-pink-500 via-violet-500 to-blue-500'>AI technology</span></h1>
 
@@ -28,37 +27,37 @@ const Hero = () => {
           <button className=' max-md:w-full hover:border-gray-400 border-[1px] p-4 rounded-md'>Watch Video</button>
         </div>
 
-        <div className=' flex gap-10'>
+        {/* <div className=' flex gap-10'>
           <img className=' w-[70px] h-[70px] object-cover rounded-md' src="https://images.pexels.com/photos/874158/pexels-photo-874158.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="" />
           <div className=' flex flex-col gap-5'>
             <p className=' text-gray-500 text-sm italic max-w-[500px]'>“I'm amazed at the level of control I have over the final look of my photos. The customizable styles make it easy to achieve a consistent visual identity for my brand.”</p>
             <span className=' text-slate-700'>Eli Friedman, founder of Sampson Photography</span>
           </div>
-        </div>
+        </div> */}
       </div>
 
       <div className=' flex-1 flex gap-10 relative'>
         <div className=' flex flex-col gap-14 mt-14'>
           <div className=' bg-neutral-900 md:w-72 md:h-40 rounded-lg hover:-translate-y-2 transition-all duration-700 overflow-hidden'>
-            <img className=' md:w-72 md:h-40 object-cover' src="assets/images/sd6.jpeg" alt="" />
+            <img className=' md:w-72 md:h-40 object-cover' src="https://i.ibb.co/M82NNh2/sd1.jpg" alt="" />
           </div>
           <div className=' bg-neutral-900 md:w-72 md:h-40 rounded-lg hover:-translate-y-2 transition-all duration-700'>
-            <img className=' md:w-72 md:h-40 object-cover' src="assets/images/sd1.jpeg" alt="" />
+            <img className=' md:w-72 md:h-40 object-cover' src="https://i.ibb.co/Hq1hxXq/sd2.jpg" alt="" />
           </div>
           <div className=' bg-neutral-900 md:w-72 md:h-40 rounded-lg hover:-translate-y-2 transition-all duration-700 max-md:hidden'>
-            <img className=' md:w-72 md:h-40 object-cover' src="assets/images/sd2.jpeg" alt="" />
+            <img className=' md:w-72 md:h-40 object-cover' src="https://i.ibb.co/qmr0k59/sd3.jpg" alt="" />
           </div>
         </div>
 
         <div className=' flex flex-col gap-14'>
           <div className=' bg-neutral-900 md:w-72 md:h-40 rounded-lg hover:-translate-y-2 transition-all duration-700'>
-            <img className=' md:w-72 md:h-40 object-cover' src="assets/images/sd3.jpeg" alt="" />
+            <img className=' md:w-72 md:h-40 object-cover' src="https://i.ibb.co/c27qZbH/sd4.jpg" alt="" />
           </div>
           <div className=' bg-neutral-900 md:w-72 md:h-40 rounded-lg hover:-translate-y-2 transition-all duration-700'>
-            <img className=' md:w-72 md:h-40 object-cover' src="assets/images/sd4.jpeg" alt="" />
+            <img className=' md:w-72 md:h-40 object-cover' src="https://i.ibb.co/BCtVDw2/sd5.jpg" alt="" />
           </div>
           <div className=' bg-neutral-900 md:w-72 md:h-40 rounded-lg hover:-translate-y-2 transition-all duration-700 max-md:hidden'>
-            <img className=' md:w-72 md:h-40 object-cover' src="assets/images/sd5.jpeg" alt="" />
+            <img className=' md:w-72 md:h-40 object-cover' src="https://i.ibb.co/mFvMTQQ/sd6.jpg" alt="" />
           </div>
         </div>
 

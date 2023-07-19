@@ -2,12 +2,17 @@ import './App.css';
 import Access from './components/Access/Access';
 import Features from './components/Features/Features';
 import Footer from './components/Footer/Footer';
-import Hero from "./components/Hero/Hero"
-import Navbar from "./components/Navbar/Navbar"
+import Hero from "./components/Hero/Hero";
+import Navbar from "./components/Navbar/Navbar";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 function App() {
+  
+  AOS.init();
+
   return (
-    <div className="px-10 md:px-12">
+    <div className="px-10 md:px-12" >
       <img src='assets/images/bg-1.svg' alt='' className=' absolute -left-32 top-0 w-[1000px] -z-10'/>
       <Navbar />
       <Hero />
